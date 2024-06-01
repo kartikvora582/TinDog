@@ -1,0 +1,105 @@
+h1 {   font-size: 3rem;  line-height: 1.5;  font-weight: 800; color: white;}
+#title{
+  background-color: #ff4c68;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-size: 3rem;
+}
+.image1{
+  width: 75%;
+  transform: rotate(18deg);
+}
+.navbar{
+  padding-bottom: 2.5rem;
+}
+/* navbar cause this class is common im all navbar component  */
+.download-btn{
+  margin: 1rem;
+}
+
+/* styling the emojis in the features section to make it bigger and colourful  */
+#features{
+  margin: 7% 15%;
+  text-align: center;
+  background-color: white;
+}
+.feature_images{
+  padding-bottom: 1rem;
+  color: #CF8172;
+}
+.feature_images:hover{
+  color: #ff4c68;
+}
+.features_headers{
+  size:1.5rem;
+}
+
+/* testimonial section  */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial_header{
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonials_image{
+  margin: 20px;
+  border-radius: 100%;
+  width: 10%;
+}
+ /* press styling */
+ #press{
+  background-color: #ef8172;
+  padding-bottom: 10%;
+  text-align: center;
+}
+.press_images{
+  width:15%;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing styles */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing_col{
+  padding: 5% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta_button{
+  margin:25px;
+}
+.cta_header{
+  font-size: 3rem;  line-height: 1.5;  font-weight: 800; color: white;
+}
+
+#footer{
+  text-align: center;
+  margin: 5% 6%;
+}
+
+/* media queries */
+@media (max-width:1000px){
+  h1{
+    text-align: center;
+  }
+  .image1{
+    transform: rotate(0deg);
+    text-align: center;
+  }
+
+}
